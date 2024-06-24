@@ -28,6 +28,9 @@ Parallel coordinate plots were used to visualize the clusters under different co
 - The clusters with lower relative humidity tend to have higher air temperatures and more extreme wind directions and speeds.
 - This plot indicates that when relative humidity is low, other weather variables exhibit more variability.
 
+**Reason**:
+- Low relative humidity often coincides with higher temperatures and dynamic atmospheric conditions, leading to greater variability in wind patterns.
+
 #### Parallel Plot for Air Temperature > 0.5
 <img width="851" alt="image" src="https://github.com/Asim-Vinayak-ML-Projects/Weather-Pattern-Analysis/assets/140016882/46da5103-f1e4-41a4-bbc1-120f92739983">
 
@@ -37,14 +40,19 @@ Parallel coordinate plots were used to visualize the clusters under different co
 - The green and yellow clusters maintain more stable values across different features.
 - Higher air temperatures are associated with increased variability in wind-related features.
 
+**Reason**:
+- Higher air temperatures can cause stronger wind currents due to thermal gradients, which can explain the increased variability in wind-related features.
+
 #### Parallel Plot for Relative Humidity > 0.5 and Air Temperature < 0.5
 <img width="860" alt="image" src="https://github.com/Asim-Vinayak-ML-Projects/Weather-Pattern-Analysis/assets/140016882/ca336a4b-0b6c-44ae-b3d3-b06439b5933b">
-
 
 **Analysis**:
 - The green and yellow clusters exhibit higher air pressure and more variability in wind direction.
 - The black and blue clusters show a more consistent pattern with lower average wind speeds.
 - This plot demonstrates that when humidity is high and temperature is low, the weather conditions tend to stabilize, especially in terms of wind speed.
+
+**Reason**:
+- When humidity is high and temperature is low, the weather conditions tend to be more stable, leading to consistent patterns in wind speed and direction.
 
 ### Scatter Plot Visualization
 #### K-means Clustering
